@@ -23,6 +23,8 @@
             border: 1px solid black;
             border-radius: 10px;
             text-align: center;
+            padding: 10px;
+            margin-left: 200px;
 
         }
     </style>
@@ -31,10 +33,10 @@
     <nav style="display: flex;">
         <p><b>My Daily Dashboard</b></p>
         <ul><a href="#Home">Home</a></ul>
-        <ul><a href="#">Task</a></ul>
-        <ul><a href="#">Notes</a></ul>
-        <ul><a href="#">Calender</a></ul>
-        <ul><a href="#">Setting</a></ul>
+        <ul><a href="#Task">Task</a></ul>
+        <ul><a href="#Notes">Notes</a></ul>
+        <ul><a href="#Calender">Calender</a></ul>
+        <ul><a href="#Setting">Setting</a></ul>
     </nav>
     <div class="con">
         <div class="side">
@@ -49,15 +51,17 @@
         </div>
         <div class="ma">
             <div class="todo">
+                <section id="Task">
                 <li><input type="checkbox"> Complete css project</li><br>
                 <li><input type="checkbox"> Complete Javascript project</li><br>
                 <li><input type="checkbox"> Complete React project</li><br>
                 <li><input type="checkbox"> Complete Next project</li><br>
                 <li><input type="checkbox"> Complete mongo-db project</li><br>
                 <li><input type="checkbox"> Complete HTML project</li><br>
+            </section>
             </div>
             <div class="notes">
-                <section>
+                <section id="Notes">
                     <label for="Notes">Notes</label>
                     <textarea name="Notes" id="Notes" rows="10" cols="100"></textarea>
                 <br><br><br>
@@ -65,30 +69,46 @@
 
             </div>
             <div class="schedual">
+                <section id="Calender">
                 <table>
-                    <tr><th>Days</th></tr>
-                    <tr><th colspan="2">Time</th></tr>
+                    <tr><th>Days</th>
+                    <th colspan="2">Time</th>
+                </tr>
 
 
-                    <tr><td>Monday</td></tr>
-                    <tr><td>Lunch At 2PM</td></tr>
-                    <tr><td>Metting at 4PM</td></tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Lunch At 2PM</td>
+                    <td>Metting at 4PM</td>
+                </tr>
 
-                    <tr><td>Tueday</td></tr>
-                    <tr><td>Lunch At 2PM</td></tr>
-                    <tr><td>Metting at 4PM</td></tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Lunch At 2PM</td>
+                        <td>Metting at 4PM</td>
+                    </tr>
 
-                    <tr><td>Wednesday</td></tr>
-                    <tr><td>Lunch At 2PM</td></tr>
-                    <tr><td>Metting at 4PM</td></tr>
-
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Lunch At 2PM</td>
+                        <td>Metting at 4PM</td>
+                    </tr>
                 </table>
-                
-               
             </div>
+        </section>
+        </div> <br><br>
+        <div class="se">
+            <section id="Setting">
+                <blockquote>Work, Work and Work</blockquote><cite>Quaid-e-Azam</cite>
+                <input type="checkbox"> Dark Mode
+                <input type="checkbox"> Show Notification
+            </section>
         </div>
-
     </div>
+    <footer>
+        <p>&copy; 2025 Made with ❤️ by Abdul rehman 4/8</p>
+
+    </footer>
 
 </body>
 </html>
