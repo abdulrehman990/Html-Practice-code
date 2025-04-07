@@ -12,13 +12,25 @@
         .con{
             display: flex;
         }
+        li{
+            list-style: none;
+        }
 
+        .ma{
+            margin-left: 50px;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: center;
+
+        }
     </style>
 </head>
 <body>
     <nav style="display: flex;">
         <p><b>My Daily Dashboard</b></p>
-        <ul><a href="#">Home</a></ul>
+        <ul><a href="#Home">Home</a></ul>
         <ul><a href="#">Task</a></ul>
         <ul><a href="#">Notes</a></ul>
         <ul><a href="#">Calender</a></ul>
@@ -26,9 +38,54 @@
     </nav>
     <div class="con">
         <div class="side">
-            <aside>
-                <img src="" alt="">
+            <aside id="Home">
+                <img src="./IMG_0711.JPG" alt="Error" width="200px" height="250px">
+                <h3>Usename: mabdulf64@gmail.com</h3>
+                <a href="#">Google</a><br>
+                <a href="#">Google</a><br>
+                <a href="#">Google</a>
+            
             </aside>
+        </div>
+        <div class="ma">
+            <div class="todo">
+                <li><input type="checkbox"> Complete css project</li><br>
+                <li><input type="checkbox"> Complete Javascript project</li><br>
+                <li><input type="checkbox"> Complete React project</li><br>
+                <li><input type="checkbox"> Complete Next project</li><br>
+                <li><input type="checkbox"> Complete mongo-db project</li><br>
+                <li><input type="checkbox"> Complete HTML project</li><br>
+            </div>
+            <div class="notes">
+                <section>
+                    <label for="Notes">Notes</label>
+                    <textarea name="Notes" id="Notes" rows="10" cols="100"></textarea>
+                <br><br><br>
+                </section>
+
+            </div>
+            <div class="schedual">
+                <table>
+                    <tr><th>Days</th></tr>
+                    <tr><th colspan="2">Time</th></tr>
+
+
+                    <tr><td>Monday</td></tr>
+                    <tr><td>Lunch At 2PM</td></tr>
+                    <tr><td>Metting at 4PM</td></tr>
+
+                    <tr><td>Tueday</td></tr>
+                    <tr><td>Lunch At 2PM</td></tr>
+                    <tr><td>Metting at 4PM</td></tr>
+
+                    <tr><td>Wednesday</td></tr>
+                    <tr><td>Lunch At 2PM</td></tr>
+                    <tr><td>Metting at 4PM</td></tr>
+
+                </table>
+                
+               
+            </div>
         </div>
 
     </div>
