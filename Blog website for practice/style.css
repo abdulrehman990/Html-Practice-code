@@ -1,19 +1,18 @@
 body{
     background-color: #e2dbdb;
     max-width: 1920px;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 10px 20px;
+    padding: 20px;
     margin-top: 20px;
-    background-color: #5c84bb;
-    color: #333333;
+    background-color: #222;
+    color: #eee;
     font-size: 18px;
-    font-family: sans-serif;
 }
 
 
@@ -33,12 +32,12 @@ ul {
 
 a {
     text-decoration: none;
-    color: #333333;
+    color: #eee;
     font-weight: bold;
 }
 
 .navbar ul a:hover {
-    color: #9cbb14;
+    color: #abdae0;
 }
 .body{
     display: flex;
@@ -49,12 +48,14 @@ a {
     margin-left: 20px;
     margin-top: 120px;
     justify-content: space-between;
+    margin-left: 240px;
     
 }
 #but{
-    padding: 10px;
+    padding: 12px;
     width: 130px;
     border: 1px solid black;
+    color: black;
     border-radius: 10px;
     margin:20px 70px 70px 70px;
     
@@ -62,28 +63,132 @@ a {
 .imga{
     margin-left: 250px;
 }
-#but:hover{
-    background-color: #9cbb14;
+#but:hover ,#Na:hover{
+    background-color: #abdae0;
     
 }
-.blogs{
-    display: flex;
-}
+
 .blog1,.blog2,.blog3{
-    border: 1px solid black;
+    display: flex;
+    border: 1px solid #e2dbdb;
     border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px 20px 20px 90px;
 }
 footer{
-    ackground-color: #cad3df;
+    background-color: #cad3df;
 }
 #Na{
     border: 1px solid black;
     border-radius: 10px;
-    padding: 5px;
-    width: 100px;
+    padding: 12px;
+    width: 130px;
+    margin-top: 20px;
 }
-#Na :hover{
-    background-color: #9cbb14;
+.para{
+    margin: 10px;
+    padding: 10px;
 }
+.footer {
+    background-color: #222;
+    color: #eee;
+    padding: 40px 20px 20px;
+
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-column h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  .faq-section {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #111;
+    color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    color: #00bcd4;
+    margin-bottom: 30px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  .faq-question {
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    color: #00bcd4;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .faq-question:hover {
+    color: #1de9b6;
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    color: #ccc;
+    font-size: 15px;
+  }
+  
+  .faq-item input[type="checkbox"] {
+    display: none;
+  }
+  
+  .faq-item input[type="checkbox"]:checked ~ .faq-answer {
+    max-height: 200px;
+    padding-top: 10px;
+  }
+  
