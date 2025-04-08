@@ -47,7 +47,7 @@ a {
 }
 .head{
     margin-left: 20px;
-    margin-top: 100px;
+    margin-top: 120px;
     justify-content: space-between;
     
 }
@@ -60,9 +60,30 @@ a {
     
 }
 .imga{
-    margin-left: 200px;
+    margin-left: 250px;
 }
 #but:hover{
     background-color: #9cbb14;
     
+}
+.blogs{
+    display: flex;
+}
+.blog1,.blog2,.blog3{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+footer{
+    ackground-color: #cad3df;
+}
+#Na{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+}
+#Na :hover{
+    background-color: #9cbb14;
 }
