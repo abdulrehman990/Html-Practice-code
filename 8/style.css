@@ -1,0 +1,16 @@
+h1{
+    background-color: blue;
+    color: yellow;
+    margin: 10px;
+    padding: 19px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+h2{
+    background-color: indigo;
+    color: rgb(50, 245, 50);
+    margin: 10px;
+    padding: 19px;
+    border: 1px solid peru;
+    box-sizing: border-box;
+}
