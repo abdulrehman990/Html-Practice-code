@@ -139,11 +139,11 @@ footer{
     color: #aaa;
   }
   .faq-section {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 60px auto;
     padding: 20px;
     background-color: #111;
-    color: #f1f1f1;
+    color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -151,7 +151,7 @@ footer{
   
   .faq-section h2 {
     text-align: center;
-    color: #00bcd4;
+    color: #ffffff;
     margin-bottom: 30px;
   }
   
@@ -166,13 +166,13 @@ footer{
     cursor: pointer;
     font-weight: bold;
     font-size: 18px;
-    color: #00bcd4;
+    color: #ffffff;
     margin-bottom: 5px;
     transition: color 0.3s ease;
   }
   
   .faq-question:hover {
-    color: #1de9b6;
+    color: #ffffff;
   }
   
   .faq-answer {
