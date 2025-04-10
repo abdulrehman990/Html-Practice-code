@@ -18,9 +18,13 @@ table,th,td{
 .head{
     background-color: #f4f4f4;
     margin: 10px;
+    padding: 10px 0px 20px 0px;
 }
 .hea{
     padding: 10px;
+}
+.he{
+    padding: 30px;
 }
 li{
     margin-top: 10px;
