@@ -20,18 +20,18 @@
 
         .left {
             position: absolute;
-            top: 30%;
+            top: 40%;
             left: 20%;
             text-transform: capitalize;
         }
 
-        .left li {
+        .left li ,.container3 li {
             list-style: none;
         }
 
-        .left li a {
+        .left li a,.container3 li a {
             text-decoration: none;
-            border: 1px solid black;
+            border: 1px solid rgba(87, 122, 219, 0.897);
             background-color: rgba(87, 122, 219, 0.897);
             border-radius: 10px;
             padding: 10px;
@@ -43,8 +43,8 @@
 
         .im {
             position: absolute;
-            top: 20%;
-            right: 22%;
+            top: 28%;
+            right: 18%;
         }
 
         .container2 {
@@ -57,6 +57,30 @@
             justify-content: center;
             color: white;
             font-size: 1.5rem;
+        }
+      .one{
+        text-align: center;
+        padding: 20px;
+        }
+        .container3{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.5;
+        }
+        .container4{
+            background-image: url("bg.jpg");
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.5;
+        }
+
+        .bor{
+            display: flex;
+            justify-content: center;
+            text-align: center;
         }
     </style>
 </head>
@@ -72,7 +96,7 @@
             <li><a href="#">Get Started</a></li>
         </div>
         <div class="im">
-            <img src="iphone.png" alt="Error" width="250px" height="460px">
+            <img src="iphone.png" alt="Error" width="280px" height="500px">
         </div>
     </div>
 
@@ -92,6 +116,26 @@
             <p>Gross increse</p>
             <p>Lorem ipsum dolor sit.</p>
         </div>
+    </div>
+    <div class="container3">
+        <center>
+            <h3>Our mission</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius laborum aliquid eum vel <br>sit quo vero laboriosam maxime mollitia. Lorem ipsum dolor, sit amet consectetur adipisicing <br> elit. Ex incidunt repellendus placeat ratione voluptas eligendi esse, tenetur ducimus! <br> Hic libero quasi natus.</p><br><br>
+            <li><a href="#">Our Mission</a></li>
+        </center>
+    </div>
+    <div class="container4">
+        <h1>
+            Responsive Image
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae, omnis veniam ullam eveniet iusto animi eligendi quo deserunt ex?</p>
+        <div class="bor">
+            <h3>I am an image</h3>
+            <h3>I am an image</h3>
+        </div>
+        <footer>
+            &copy;HTML Website made by abdul rehman <br>powered by Techns
+        </footer>
     </div>
 
 </body>
