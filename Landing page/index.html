@@ -25,11 +25,13 @@
             text-transform: capitalize;
         }
 
-        .left li ,.container3 li {
+        .left li,
+        .container3 li {
             list-style: none;
         }
 
-        .left li a,.container3 li a {
+        .left li a,
+        .container3 li a {
             text-decoration: none;
             border: 1px solid rgba(87, 122, 219, 0.897);
             background-color: rgba(87, 122, 219, 0.897);
@@ -37,7 +39,8 @@
             padding: 10px;
             color: white;
         }
-        .left p{
+
+        .left p {
             line-height: 1.5;
         }
 
@@ -58,29 +61,46 @@
             color: white;
             font-size: 1.5rem;
         }
-      .one{
-        text-align: center;
-        padding: 20px;
+
+        .one {
+            text-align: center;
+            padding: 20px;
         }
-        .container3{
+
+        .container3 {
             height: 100vh;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            line-height: 1.5;
-        }
-        .container4{
-            background-image: url("bg.jpg");
-            height: 100vh;
             align-items: center;
             justify-content: center;
             line-height: 1.5;
         }
 
-        .bor{
+        .container4 {
+            background-image: url("bg.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
             display: flex;
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
             text-align: center;
+            color: white;
+            gap: 20px;
+
+        }
+        .bor1{
+            display: flex;
+        }
+
+        .bor {
+            justify-content: center;
+            text-align: center;
+            border: 1px dashed white;
+            padding: 70px;
+            margin: 10px;
+
+
         }
     </style>
 </head>
@@ -120,7 +140,10 @@
     <div class="container3">
         <center>
             <h3>Our mission</h3><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius laborum aliquid eum vel <br>sit quo vero laboriosam maxime mollitia. Lorem ipsum dolor, sit amet consectetur adipisicing <br> elit. Ex incidunt repellendus placeat ratione voluptas eligendi esse, tenetur ducimus! <br> Hic libero quasi natus.</p><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius laborum aliquid eum vel <br>sit quo
+                vero laboriosam maxime mollitia. Lorem ipsum dolor, sit amet consectetur adipisicing <br> elit. Ex
+                incidunt repellendus placeat ratione voluptas eligendi esse, tenetur ducimus! <br> Hic libero quasi
+                natus.</p><br><br>
             <li><a href="#">Our Mission</a></li>
         </center>
     </div>
@@ -128,11 +151,16 @@
         <h1>
             Responsive Image
         </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae, omnis veniam ullam eveniet iusto animi eligendi quo deserunt ex?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae, omnis veniam ullam eveniet iusto
+            animi eligendi quo deserunt ex?</p>
+            <div class="bor1">
         <div class="bor">
             <h3>I am an image</h3>
+            </div>
+            <div class="bor">
             <h3>I am an image</h3>
         </div>
+    </div>
         <footer>
             &copy;HTML Website made by abdul rehman <br>powered by Techns
         </footer>
