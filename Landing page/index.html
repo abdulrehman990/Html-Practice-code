@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <style>
-        *{
+        * {
             font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .left{
+
+        .container {
+            position: relative;
+            height: 100vh;
+        }
+
+        .left {
             position: absolute;
             top: 30%;
             left: 20%;
             text-transform: capitalize;
         }
+
         .left li {
             list-style: none;
         }
-        .left li a{
-            list-style: none;
+
+        .left li a {
             text-decoration: none;
             border: 1px solid black;
             background-color: rgba(87, 122, 219, 0.897);
@@ -26,32 +37,63 @@
             padding: 10px;
             color: white;
         }
-        .im{
+        .left p{
+            line-height: 1.5;
+        }
+
+        .im {
             position: absolute;
             top: 20%;
             right: 22%;
         }
 
+        .container2 {
+            background-image: url("bg.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="left">
-            <h1>
-                first website
-
-            </h1>
+            <h1>first website</h1> <br>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quod facere sint aperiam sit saepe eum praesentium at eveniet <br> et fugit. <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quod facere sint aperiam sit saepe eum
+                praesentium at eveniet <br> et fugit. <br><br><br>
             </p>
             <li><a href="#">Get Started</a></li>
         </div>
         <div class="im">
             <img src="iphone.png" alt="Error" width="250px" height="460px">
         </div>
-        
     </div>
 
-    
+    <div class="container2">
+        <div class="one">
+            <p>76%</p>
+            <p>Coke increse</p>
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="one">
+            <p>90%</p>
+            <p>Multi increse</p>
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="one">
+            <p>60%</p>
+            <p>Gross increse</p>
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+    </div>
+
 </body>
+
 </html>
