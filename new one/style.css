@@ -44,3 +44,27 @@ nav{
     margin-left: 5px;
     font-size: 20px;
 }
+.body{
+    display: flex;
+    background-color: #d7d7d7;
+    height: 51vh;
+    justify-content: center;
+}
+.imgone{
+    margin-top: 3px;
+    
+}
+.co{
+    margin-top: 3px;
+    border:  1px solid#00548f;
+    background-color:#00548f ;
+    padding: 15px;
+}
+.cr p{
+    width: 330px;
+    height: 260px;
+    overflow: auto;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+}
