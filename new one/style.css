@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: relative;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding: 10px;
+    gap: 15px;
+}
+.con h2{
+    margin-left: 50px;
+}
+.con ul {
+    display: flex;
+    background-color: #00548f;
+    padding: 10px 80px 10px 10px;
+    margin: 5px 30px 10px 30px;
+    gap: 30px;
+}
+.con ul li{
+    list-style: none;
+   
+}
+.con li a{
+    color: white;
+    text-decoration: none;
+
+}
+.contatc{
+    position: absolute;
+    top: 15px;
+    right: 420px;
+}
+.one {
+    border-right: 1px dotted white;
+    padding-right: 12px;
+    font-size: 20px;
+}
+.contatc span{
+    margin-left: 5px;
+    font-size: 20px;
+}
