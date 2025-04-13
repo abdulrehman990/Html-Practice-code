@@ -71,12 +71,10 @@ nav{
 .main{
     background-color: #F0F0F0;
 }
-.para{
+footer{
+    background-color: black;
     display: flex;
-}
-.con1{
-width: 50%;
-}
-.con2{
-    width: 50%;
+    color: white;
+    justify-content: space-around;
+    padding: 15px;
 }
