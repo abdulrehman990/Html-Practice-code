@@ -58,7 +58,7 @@ nav{
     margin-top: 3px;
     border:  1px solid#00548f;
     background-color:#00548f ;
-    padding: 15px;
+    padding: 10px;
 }
 .cr p{
     width: 330px;
@@ -67,4 +67,16 @@ nav{
     background-color: white;
     border-radius: 10px 0px 0px 10px;
     padding: 10px;
+}
+.main{
+    background-color: #F0F0F0;
+}
+.para{
+    display: flex;
+}
+.con1{
+width: 50%;
+}
+.con2{
+    width: 50%;
 }
