@@ -21,13 +21,27 @@
             border-radius: 10px;
 
         }
-        span{
+        span,li{
             border: 1px solid rgb(190, 184, 184);
             color: rgb(95, 87, 87);
             border-radius: 13px;
             padding: 4px 10px 4px 10px;
             margin-left: 10px;
         }
+        li{
+            width: fit-content;
+            list-style: none;
+            line-height: 2;
+            justify-self: center;
+            background-color: rgb(176, 206, 231);
+        }
+        li a{
+            
+            text-decoration: none;
+            color: rgb(16, 77, 128);
+        }
+
+
     </style>
 </head>
 <body>
@@ -39,8 +53,8 @@
         <span>lake</span>
         <div class="content">
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero maiores cumque saepe aut, totam sint minus ipsam minima iusto accusantium.</p>
-
+            <p>Lorem ipsum dolor sit amet consectetur, <br>adipisicing elit. Vero maiores cumque saepe aut, <br> totam sint minus ipsam minima iusto accusantium.</p>
+            <li> <a href="">Read more</a></li>
         </div>
     </div>
 
