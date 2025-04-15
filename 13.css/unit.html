@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tennis Ball Bounce</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .con {
+      background-color: lightblue;
+      border: 2px solid black;
+      height: 60vh;
+      position: relative;
+
+    }
+
+    .box {
+      background-color: rgb(0, 255, 0);
+      border: 2px solid darkgreen;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      bottom: 0;
+      animation: bounceForward 3s infinite ease-in-out;
+    }
+
+    @keyframes bounceForward {
+      0% {
+        transform: translate(0px, 0);
+      }
+      20% {
+        transform: translate(100px, -120px);
+      }
+      40% {
+        transform: translate(200px, 0);
+      }
+      60% {
+        transform: translate(300px, -80px);
+      }
+      80% {
+        transform: translate(400px, 0);
+      }
+      100% {
+        transform: translate(500px, -40px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="con">
+    <div class="box"></div>
+  </div>
+</body>
+</html>
