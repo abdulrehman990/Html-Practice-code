@@ -1,0 +1,50 @@
+
+body{
+    background: linear-gradient(to bottom, #571717 10%, #221d1d 90%);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+}
+#but{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+#but a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+#but a:hover{
+    color: rgb(172, 153, 153);
+    transition:  ease-in-out;
+}
+.nav{
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: #221d1d;
+    box-sizing: border-box;
+    
+}
+.nav li{
+    list-style: none;
+    
+
+}
+.nav li a{
+  
+    text-decoration: none;
+    color: white;
+    
+
+}
